@@ -119,6 +119,7 @@ const Shop = () => {
             <FoodGrid
               hideFilters={true}
               customProducts={filteredProducts}
+              limit={10}
             />
           </main>
         </div>

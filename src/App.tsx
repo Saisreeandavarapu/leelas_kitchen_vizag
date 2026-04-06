@@ -8,6 +8,7 @@ import Shop from './pages/Shop';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Reviews from './pages/Reviews';
+import Gallery from './pages/Gallery';
 
 import { CartProvider } from './context/CartContext';
 import ScrollToTop from './components/ScrollToTop';
@@ -27,6 +28,7 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/reviews" element={<Reviews />} />
+              <Route path="/gallery" element={<Gallery />} />
             </Routes>
           </main>
 

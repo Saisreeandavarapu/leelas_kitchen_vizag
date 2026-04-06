@@ -22,7 +22,7 @@ const Home = () => {
       </div>
 
       <div className="bg-brand-gray/30 pb-10">
-        <FoodGrid limit={10} />
+        <FoodGrid limit={10} columns={4} />
       </div>
       <DeliveryBanner />
     </>
